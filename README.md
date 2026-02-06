@@ -17,6 +17,25 @@ In this tutorial, we will
 - Practice version control and collaborative workflows using Git and GitHub.
 - Learn how to develop customized learning contents as a method of consolidating knowledge learnt and develop valuable resource to revisit later to improve understanding.
 
+## Deployment (Vercel)
+1. Push your code to GitHub (main branch).
+2. Go to https://vercel.com/new and import this repository.
+3. When prompted, add the environment variables below.
+4. Deploy. Vercel will give you a public URL that stays active as long as the project remains in your account.
+
+Environment variables to add in Vercel:
+- NEXT_PUBLIC_SUPABASE_URL
+- NEXT_PUBLIC_SUPABASE_ANON_KEY
+- SUPABASE_SERVICE_ROLE_KEY
+- SUPABASE_BUCKET
+- GITHUB_MODELS_API_KEY
+- GITHUB_MODELS_MODEL
+
+After deployment, update Supabase Auth settings:
+- Authentication > URL Configuration
+- Site URL: https://your-vercel-domain.vercel.app
+- Redirect URLs: https://your-vercel-domain.vercel.app/*
+
 
 ### Task 1: Build a simple Next.js project with Tailwind CSS and document your steps 
 Tech Stack:
