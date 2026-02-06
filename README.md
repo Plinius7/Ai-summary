@@ -1,3 +1,4 @@
+[![Open in Codespaces](https://classroom.github.com/assets/launch-codespace-2972f46106e565e64193e422d61a12cf1da4916b45550586e14ef0a7c637dd04.svg)](https://classroom.github.com/open-in-codespaces?assignment_repo_id=22555708)
 ## Overview
 
 Agentic Coding agents allows users to generate thousands of lines of code and build complex features without fully understanding how the code works.  While AI can easily complete the first 70% of a platform, what truly differentiates us is our understanding of the AI-generated code or solutions, which may appear correct on the surface but can contain inefficient or flawed logic underneath. Our ability to debug and fix these problems ourselves, especially in the final 30% where AI struggles, is what sets us apart. In the age of AI, it is still important to learn the foundational skills of building applications step-by-step. 
